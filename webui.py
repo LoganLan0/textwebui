@@ -76,7 +76,7 @@ def install_dependencies():
     print("C) Apple M Series")
     print("D) None (I want to run in CPU mode)")
     print()
-    gpuchoice = input("Input> ").lower()
+    gpuchoice = "a"
 
     if gpuchoice == "d":
         print_big_message("Once the installation ends, make sure to open webui.py with a text editor\nand add the --cpu flag to CMD_FLAGS.")
